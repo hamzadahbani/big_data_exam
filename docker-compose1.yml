@@ -1,0 +1,9 @@
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra-node
+    ports:
+      - "9042:9042" 
+
+volumes:
+  cassandra_data:
